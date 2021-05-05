@@ -12,6 +12,9 @@
         Bug Details
       </button>
     </router-link> -->
+    <h1>
+      Welcome to Bugfinder!
+    </h1>
   </div>
 </template>
 
