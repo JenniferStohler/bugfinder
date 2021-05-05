@@ -1,0 +1,16 @@
+{
+  "name": "bugfinder",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run setup:client && npm run setup:server",
+    "setup:client": "cd bugfinder.client && npm i",
+    "setup:server": "cd bugfinder.server && npm i",
+    "start": "node bugfinder.server/index.js"
+  },
+  "engines": {
+    "node": "^14.15.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
