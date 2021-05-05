@@ -1,5 +1,5 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center bg-success">
     <router-link :to="{ name: 'Bugs' }" class="nav-link">
     </router-link>
     <!-- <router-link :to="{ name: 'BugsPage' }" class="nav-link">
